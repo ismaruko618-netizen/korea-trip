@@ -2,9 +2,9 @@
 <html lang="zh-Hant"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="東北賞楓">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="韓國歲修">
 <meta name="theme-color" content="#fbf3e1"><meta name="color-scheme" content="light dark">
-<title>日本東北賞楓之旅</title>
+<title>2026 韓國歲修</title>
 <link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" href="icon-192.png">
 <style>html,body{margin:0;height:100%}:root{padding:env(safe-area-inset-top,0px) 0 0}[hidden]{display:none!important}</style>
 </head><body><script>window.__standalone=true;</script>
@@ -22,7 +22,6 @@
   --ol: #5b4638; --sky: #cfe9f5; --sky2: #a9d3e8; --cloud: #ffffff; --asun: #f7c95a; --leaf: #a5d3a4; --leaf2: #76b58c;
   --roof: #e2675c; --roof2: #4f9aa4; --wall: #fbeccb; --wall2: #f8cdd0; --wall3: #f9de8f; --wall4: #c9e7d4; --brown: #b88c63;
   --water: #8ec9e0; --gray: #cfc8bb; --plane: #ffffff; --snow: #ffffff;
-  --maple: #e2573a; --maple2: #f2a03d; --thatch: #cfa968;
   --font-body: "Zen Maru Gothic", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
   --font-hand: "Klee One", "Zen Maru Gothic", "Noto Sans TC", "PingFang TC", sans-serif;
   --font-num: "Klee One", "Zen Maru Gothic", "Noto Sans TC", sans-serif;
@@ -36,7 +35,7 @@
     --c0: #ff9d8f; --c1: #7ed1ac; --c2: #86bde8; --c3: #f0c067; --c4: #bba8ea; --c5: #b3d77a; --c6: #deaa84; --c7: #aebccb;
     --ol: #171428; --sky: #2c3a6b; --sky2: #3d4f8a; --cloud: #e8e4f2; --asun: #f4dc8a; --leaf: #3f7b66; --leaf2: #2f6352;
     --roof: #d9625a; --roof2: #47929a; --wall: #e6d6b2; --wall2: #e2b0b6; --wall3: #e8cb78; --wall4: #a3ccb5; --brown: #9a7552;
-    --water: #40709b; --gray: #8a8799; --plane: #f1ede4; --snow: #e9eef7; --maple: #e6694a; --maple2: #f0b052; --thatch: #a58650;
+    --water: #40709b; --gray: #8a8799; --plane: #f1ede4; --snow: #e9eef7;
     color-scheme: dark;
   }
 }
@@ -48,7 +47,7 @@
   --c0: #ff9d8f; --c1: #7ed1ac; --c2: #86bde8; --c3: #f0c067; --c4: #bba8ea; --c5: #b3d77a; --c6: #deaa84; --c7: #aebccb;
   --ol: #171428; --sky: #2c3a6b; --sky2: #3d4f8a; --cloud: #e8e4f2; --asun: #f4dc8a; --leaf: #3f7b66; --leaf2: #2f6352;
   --roof: #d9625a; --roof2: #47929a; --wall: #e6d6b2; --wall2: #e2b0b6; --wall3: #e8cb78; --wall4: #a3ccb5; --brown: #9a7552;
-  --water: #40709b; --gray: #8a8799; --plane: #f1ede4; --snow: #e9eef7; --maple: #e6694a; --maple2: #f0b052; --thatch: #a58650;
+  --water: #40709b; --gray: #8a8799; --plane: #f1ede4; --snow: #e9eef7;
   color-scheme: dark;
 }
 html, body { height: 100%; }
@@ -224,7 +223,7 @@ body { font-weight: 500; letter-spacing: .03em; background: var(--bg); color: va
 .f-sky { fill: var(--sky); } .f-sky2 { fill: var(--sky2); } .f-cloud { fill: var(--cloud); } .f-asun { fill: var(--asun); }
 .f-leaf { fill: var(--leaf); } .f-leaf2 { fill: var(--leaf2); } .f-roof { fill: var(--roof); } .f-roof2 { fill: var(--roof2); }
 .f-wall { fill: var(--wall); } .f-wall2 { fill: var(--wall2); } .f-wall3 { fill: var(--wall3); } .f-wall4 { fill: var(--wall4); }
-.f-brown { fill: var(--brown); } .f-water { fill: var(--water); } .f-gray { fill: var(--gray); } .f-plane { fill: var(--plane); } .f-snow { fill: var(--snow); } .f-maple { fill: var(--maple); } .f-maple2 { fill: var(--maple2); } .f-thatch { fill: var(--thatch); }
+.f-brown { fill: var(--brown); } .f-water { fill: var(--water); } .f-gray { fill: var(--gray); } .f-plane { fill: var(--plane); } .f-snow { fill: var(--snow); }
 .dash { fill: none; stroke: var(--cloud); stroke-width: 2.4; stroke-dasharray: 10 8; }
 .stripe { fill: none; stroke: var(--roof); stroke-width: 3; }
 .tx { fill: var(--ol); font-family: var(--font-body); font-weight: 700; }
@@ -328,7 +327,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
 
 <div class="app">
   <header>
-    <div><div class="eyebrow">Tohoku · 11.05 — 11.10</div><h1>日本東北賞楓之旅</h1></div>
+    <div><div class="eyebrow">Seoul · 12.02 — 12.06</div><h1>2026 韓國歲修</h1></div>
     <div class="side"><span class="trip" id="tripName"></span><span class="role" id="roleBadge"></span><span class="count" id="countdown"></span></div>
     <div class="hero" id="hero"></div>
   </header>
@@ -440,9 +439,9 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
         <label for="pName">名稱<input id="pName" required placeholder="例：牛舌老店"></label>
         <div class="row">
           <label for="pType">分類<select id="pType"><option value="spot">景點</option><option value="food">美食</option></select></label>
-          <label for="pCity">城市<input id="pCity" list="cityList" placeholder="例：仙台"><datalist id="cityList"></datalist></label>
+          <label for="pCity">城市<input id="pCity" list="cityList" placeholder="例：弘大"><datalist id="cityList"></datalist></label>
         </div>
-        <label for="pAddr">地址（選填）<input id="pAddr" placeholder="例：宮城縣仙台市青葉區中央3丁目3-5"></label>
+        <label for="pAddr">地址（選填）<input id="pAddr" placeholder="例：156 Yanghwa-ro, Mapo-gu, Seoul"></label>
         <div style="display:flex;gap:10px;flex-wrap:wrap">
           <a class="btn ghost" id="pAddrLink" target="_blank" rel="noopener">在 Google 地圖查詢</a>
           <button class="btn ghost" id="pGeo" type="button">估算座標</button>
@@ -468,7 +467,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
       </div>
       <div class="card">
         <h2>預訂項目</h2>
-        <p class="sub" style="margin-top:-4px">機票、住宿、租車確定金額後，點「記金額」會帶入分帳表單。</p>
+        <p class="sub" style="margin-top:-4px">機票、住宿確定金額後，點「記金額」會帶入分帳表單。</p>
         <ul class="list" id="quickList"></ul>
       </div>
       <div class="card">
@@ -642,16 +641,16 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
 
 <script>
 (function () {
-  var KEY = 'travel-app-v1';
+  var KEY = 'korea-trip-2026-v1';
   var REF_RATES = { TWD: 1, JPY: 0.21, USD: 31, KRW: 0.023, EUR: 36, THB: 0.95, HKD: 4, CNY: 4.4 };
   var NAMES = { TWD: '新台幣', JPY: '日圓', USD: '美元', KRW: '韓元', EUR: '歐元', THB: '泰銖', HKD: '港幣', CNY: '人民幣' };
 
   var PACK_DEF = [
-    ['證件與金錢', ['護照（效期 6 個月以上）', '機票／電子登機證', '旅遊保險資料', '現金（外幣與新台幣）', '信用卡（確認海外可用）']],
-    ['電子用品', ['手機與充電線', '行動電源（需隨身，不可託運）', '萬用轉接插頭', 'eSIM／網卡', '耳機']],
-    ['衣物', ['換洗衣物', '外套', '好走的鞋', '雨具']],
-    ['盥洗與藥品', ['牙刷牙膏', '個人藥品', '口罩與酒精', '防曬用品']],
-    ['其他', ['水壺', '購物袋', '行李鎖與吊牌']]
+    ['證件與金錢', ['護照（效期 6 個月以上）', '機票／電子登機證', '旅遊保險資料', '現金（韓元與新台幣）', '信用卡（確認海外可用）', '入境規定（K-ETA／Q-CODE）出發前再確認']],
+    ['電子用品', ['手機與充電線', '行動電源（需隨身，不可託運）', '轉接插頭（韓國 220V、雙圓孔）', 'eSIM／網卡', '耳機', 'Naver Map／KakaoMap 先下載']],
+    ['衣物', ['換洗衣物', '發熱衣與保暖外套', '手套、圍巾、毛帽', '好走的防滑鞋', '雨具']],
+    ['盥洗與藥品', ['牙刷牙膏', '個人藥品', '口罩與酒精', '護手霜與護唇膏（乾冷）', '暖暖包']],
+    ['其他', ['購物袋', '行李鎖與吊牌', 'Airbnb 入住指引與地址截圖']]
   ];
   function defaultPack() {
     var out = [], id = 600;
@@ -660,80 +659,44 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
   }
 
   function sample() {
-    var extra = [
-      { id: 650, cat: '衣物', name: '發熱衣與保暖外套', done: false },
-      { id: 651, cat: '衣物', name: '手套與圍巾', done: false },
-      { id: 652, cat: '其他', name: '泡湯用小毛巾與塑膠袋', done: false }
-    ];
     return {
-      trip: '東北賞楓 6 日',
+      trip: '2026 韓國歲修',
       example: false,
       seedV: 3,
       rates: Object.assign({}, REF_RATES),
-      members: [],
+      members: [{ id: 901, name: '小雯' }, { id: 902, name: '婷婷' }, { id: 903, name: '孆儀' }],
       expenses: [],
       places: [
-        { id: 1, name: '仙台機場', q: '仙台空港', lat: 38.1397, lng: 140.917, approx: true },
-        { id: 2, name: '鳴子峽', q: '鳴子峡', lat: 38.745, lng: 140.70, approx: true },
-        { id: 3, name: '王將果樹園', q: '王将果樹園', lat: null, lng: null, approx: true },
-        { id: 4, name: '山形縣綜合運動公園', q: '山形県総合運動公園', lat: null, lng: null, approx: true },
-        { id: 5, name: '山寺', q: '山寺 立石寺', lat: 38.3125, lng: 140.4343, approx: true },
-        { id: 6, name: '五色沼', q: '五色沼 裏磐梯', lat: 37.645, lng: 140.078, approx: true },
-        { id: 7, name: '大內宿', q: '大内宿', lat: 37.333, lng: 139.867, approx: true },
-        { id: 8, name: '塔のへつり', q: '塔のへつり', lat: 37.28, lng: 139.87, approx: true },
-        { id: 9, name: '會津若松鶴ヶ城', q: '鶴ヶ城', lat: 37.4875, lng: 139.9297, approx: true },
-        { id: 10, name: '御宿東鳳溫泉飯店', q: '御宿 東鳳 会津若松', lat: 37.463, lng: 139.959, approx: true },
-        { id: 11, name: '土津神社', q: '土津神社', lat: null, lng: null, approx: true },
-        { id: 12, name: '秋保大瀧', q: '秋保大滝', lat: 38.243, lng: 140.665, approx: true },
-        { id: 13, name: '松島', q: '松島 宮城', lat: 38.371, lng: 141.061, approx: true },
-        { id: 14, name: '仙台城跡', q: '仙台城跡', lat: 38.2517, lng: 140.8553, approx: true },
-        { id: 15, name: '瑞鳳殿', q: '瑞鳳殿', lat: 38.2503, lng: 140.8925, approx: true }
+        { id: 1, name: '仁川國際機場', q: 'Incheon International Airport', lat: 37.4602, lng: 126.4407, approx: true },
+        { id: 2, name: 'Airbnb · Hongdae sub 1min', q: '156 Yanghwa-ro, Mapo-gu, Seoul LG Palace', lat: 37.5563, lng: 126.9236, approx: true }
       ],
-      startDate: '2026-11-05',
-      dayCount: 6,
+      startDate: '2026-12-02',
+      dayCount: 5,
       flights: [
-        { dir: '去程', air: '虎航', no: 'IT254', date: '11/5', from: '台北', dep: '15:35', to: '仙台', arr: '18:45' },
-        { dir: '回程', air: '虎航', no: 'IT255', date: '11/10', from: '仙台', dep: '19:40', to: '台北', arr: '23:00' }
+        { who: '小雯、婷婷', air: '酷航', dir: '去程', no: 'TR872', date: '12/2', from: '台北', dep: '18:15', to: '仁川', arr: '21:45' },
+        { who: '小雯、婷婷', air: '酷航', dir: '回程', no: 'TR873', date: '12/6', from: '仁川', dep: '23:00', to: '台北', arr: '00:45（+1）' },
+        { who: '孆儀', air: '華航', dir: '去程', no: 'CI162', date: '12/2', from: '台北', dep: '15:40', to: '仁川', arr: '19:15' },
+        { who: '孆儀', air: '華航', dir: '回程', no: 'CI163', date: '12/6', from: '仁川', dep: '20:15', to: '台北', arr: '22:15' }
       ],
       stay: {
-        1: 'ホテル京阪 仙台',
-        2: 'Daiwa Roynet Hotel 山形站前',
-        3: 'Urabandai Lake Resort 裏磐梯湖畔渡假村',
-        4: '御宿東鳳溫泉飯店',
-        5: 'Daiwa Roynet Hotel 仙台西口 PREMIER'
+        1: 'Airbnb：Hongdae sub 1min', 2: 'Airbnb：Hongdae sub 1min', 3: 'Airbnb：Hongdae sub 1min', 4: 'Airbnb：Hongdae sub 1min'
       },
       stayInfo: {
-        1: { addr: '宮城縣仙台市青葉區中央3丁目3-5', tel: '+81 22-263-0321', q: 'ホテル京阪 仙台 宮城県仙台市青葉区中央3-3-5' },
-        2: { addr: '山形縣山形市幸町2-9', tel: '+81 23-627-7255', q: 'ダイワロイネットホテル山形駅前 山形県山形市幸町2-9' },
-        3: { addr: '福島縣耶麻郡北鹽原村檜原湯平山 1171-1', tel: '+81-241-37-1111', q: '裏磐梯レイクリゾート 福島県耶麻郡北塩原村桧原湯平山1171-1' },
-        4: { addr: '福島縣會津若松市東山町大字石山字院内706', tel: '+81 242-26-4141', q: '御宿 東鳳 福島県会津若松市東山町大字石山字院内706' },
-        5: { addr: '〒980-0021 宮城縣仙台市青葉區中央3丁目7番25號', tel: '+81-22-217-7255', q: 'ダイワロイネットホテル仙台西口PREMIER 宮城県仙台市青葉区中央3-7-25' }
+        1: { addr: '156 LG Palace in Yanghwa-ro, Mapo-gu, Seoul', tel: '', q: '156 Yanghwa-ro, Mapo-gu, Seoul LG Palace' },
+        2: { addr: '156 LG Palace in Yanghwa-ro, Mapo-gu, Seoul', tel: '', q: '156 Yanghwa-ro, Mapo-gu, Seoul LG Palace' },
+        3: { addr: '156 LG Palace in Yanghwa-ro, Mapo-gu, Seoul', tel: '', q: '156 Yanghwa-ro, Mapo-gu, Seoul LG Palace' },
+        4: { addr: '156 LG Palace in Yanghwa-ro, Mapo-gu, Seoul', tel: '', q: '156 Yanghwa-ro, Mapo-gu, Seoul LG Palace' }
       },
       itin: [
-        { id: 201, day: 1, time: '', title: '搭乘虎航 IT254 前往仙台', place: null, note: '15:35 TPE → 18:45 SDJ' },
-        { id: 202, day: 1, time: '', title: '抵達仙台機場', place: 1, note: '' },
-        { id: 203, day: 1, time: '', title: '前往仙台市區，入住 ホテル京阪 仙台', place: null, note: '' },
-        { id: 204, day: 2, time: '', title: '鳴子峽', place: 2, note: '' },
-        { id: 205, day: 2, time: '', title: '王將果樹園', place: 3, note: '' },
-        { id: 206, day: 2, time: '', title: '山形縣綜合運動公園', place: 4, note: '' },
-        { id: 207, day: 3, time: '', title: '山寺', place: 5, note: '' },
-        { id: 208, day: 3, time: '', title: '五色沼', place: 6, note: '' },
-        { id: 209, day: 3, time: '', title: '入住裏磐梯湖畔渡假村', place: null, note: '' },
-        { id: 210, day: 4, time: '', title: '大內宿', place: 7, note: '' },
-        { id: 211, day: 4, time: '', title: '塔のへつり', place: 8, note: '' },
-        { id: 212, day: 4, time: '', title: '會津若松鶴ヶ城', place: 9, note: '' },
-        { id: 213, day: 4, time: '', title: '入住御宿東鳳溫泉飯店', place: 10, note: '' },
-        { id: 214, day: 5, time: '', title: '土津神社', place: 11, note: '' },
-        { id: 215, day: 5, time: '', title: '秋保大瀧', place: 12, note: '' },
-        { id: 216, day: 5, time: '', title: '松島', place: 13, note: '' },
-        { id: 217, day: 5, time: '', title: '入住仙台 Daiwa Roynet Hotel', place: null, note: '' },
-        { id: 218, day: 6, time: '', title: '仙台城跡', place: 14, note: '' },
-        { id: 219, day: 6, time: '', title: '瑞鳳殿', place: 15, note: '' },
-        { id: 220, day: 6, time: '', title: '仙台市區逛街', place: null, note: '' },
-        { id: 221, day: 6, time: '', title: '前往仙台機場', place: 1, note: '' },
-        { id: 222, day: 6, time: '', title: '搭乘虎航 IT255 返回台北', place: null, note: '19:40 SDJ → 23:00 TPE' }
+        { id: 201, day: 1, time: '15:40', title: '孆儀 搭乘華航 CI162 TPE → ICN', place: null, note: '19:15 抵達仁川' },
+        { id: 202, day: 1, time: '18:15', title: '小雯、婷婷 搭乘酷航 TR872 TPE → ICN', place: null, note: '21:45 抵達仁川' },
+        { id: 203, day: 1, time: '', title: '抵達仁川國際機場', place: 1, note: '' },
+        { id: 204, day: 1, time: '', title: '前往弘大，入住 Airbnb', place: 2, note: '' },
+        { id: 205, day: 5, time: '', title: '退房，整理行李', place: 2, note: '' },
+        { id: 206, day: 5, time: '20:15', title: '孆儀 搭乘華航 CI163 ICN → TPE', place: null, note: '22:15 抵達台北' },
+        { id: 207, day: 5, time: '23:00', title: '小雯、婷婷 搭乘酷航 TR873 ICN → TPE', place: null, note: '00:45（+1）抵達台北' }
       ],
-      pack: defaultPack().concat(extra),
+      pack: defaultPack(),
       nextId: 1000
     };
   }
@@ -758,8 +721,8 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
     S.pack = S.example ? d0.pack : [];
     S.nextId = Math.max(S.nextId || 0, 1000);
   }
-  var SEED_CITY = { 1: '仙台', 2: '鳴子', 3: '山形', 4: '山形', 5: '山形', 6: '裏磐梯', 7: '會津', 8: '會津', 9: '會津', 10: '會津', 11: '猪苗代', 12: '仙台', 13: '松島', 14: '仙台', 15: '仙台' };
-  S.cityColor = S.cityColor || { '仙台': 0, '鳴子': 3, '山形': 2, '裏磐梯': 1, '會津': 4, '猪苗代': 5, '松島': 6 };
+  var SEED_CITY = { 1: '仁川', 2: '弘大' };
+  S.cityColor = S.cityColor || { '仁川': 2, '弘大': 0, '聖水': 1, '明洞': 3, '江南': 4, '漢南': 5, '益善洞': 6 };
   S.places.forEach(function (p) {
     if (!p.type) p.type = 'spot';
     if (p.city === undefined) p.city = SEED_CITY[p.id] || '';
@@ -840,140 +803,87 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
         R(256, 70, 16, 40, 3, 'wall') + R(246, 50, 36, 22, 5, 'sky2') + R(250, 55, 28, 10, 2, 'cloud') + R(242, 44, 44, 8, 3, 'roof') + L('M264 44 V30') +
         plane(40, 58, .9, 10) +
         L('M326 108 V84') + P('M326 86 L350 91 L326 97Z', 'roof') +
-        T(172, 134, 9, 'SENDAI  SDJ');
+        T(172, 134, 9, 'INCHEON  ICN');
     };
     SC.plane = function () {
       return bg('sky') + sun(300, 30, 14) + cloud(20, 80, 1.1) + cloud(250, 90, 1.2) + cloud(130, 14, .7) +
         '<path class="ol nf" d="M10 60 Q60 20 120 50" stroke-dasharray="3 6"/>' +
         plane(110, 44, 1.6, -6) + cloud(60, 108, 1.3) + cloud(200, 112, 1.1);
     };
-    function maple(x, y, s, f) {
-      return G('translate(' + x + ' ' + y + ') scale(' + s + ')', R(-3, -12, 6, 14, 1, 'brown') + P('M-18 -10 Q-26 -30 -8 -34 Q-8 -48 8 -42 Q26 -42 22 -26 Q30 -12 12 -10Z', f || 'maple') + '<circle class="f-maple2 nol" cx="-6" cy="-26" r="4"/><circle class="f-maple2 nol" cx="10" cy="-31" r="3.5"/><circle class="f-maple2 nol" cx="14" cy="-18" r="3"/>');
-    }
-    function pine(x, y, s) {
-      return G('translate(' + x + ' ' + y + ') scale(' + s + ')', R(-2.5, -10, 5, 12, 1, 'brown') + P('M-15 -8 L0 -28 L15 -8Z', 'leaf2') + P('M-11 -20 L0 -42 L11 -20Z', 'leaf2'));
-    }
-    function mount(x, y, w, h, f, cap) {
-      var m = P('M' + x + ' ' + y + ' L' + (x + w * 0.5) + ' ' + (y - h) + ' L' + (x + w) + ' ' + y + 'Z', f);
-      if (cap) m += '<path class="f-snow nol" d="M' + (x + w * 0.38) + ' ' + (y - h * 0.76) + ' L' + (x + w * 0.5) + ' ' + (y - h) + ' L' + (x + w * 0.62) + ' ' + (y - h * 0.76) + ' Q' + (x + w * 0.5) + ' ' + (y - h * 0.68) + ' ' + (x + w * 0.38) + ' ' + (y - h * 0.76) + 'Z"/>';
-      return m;
-    }
-    function thatch(x, y, w, h, wall) {
-      var wh = h * 0.38;
-      return R(x, y - wh, w, wh, 2, wall || 'wall') + P('M' + (x - 7) + ' ' + (y - wh + 3) + ' L' + (x + w / 2) + ' ' + (y - h) + ' L' + (x + w + 7) + ' ' + (y - wh + 3) + 'Z', 'thatch') +
-        '<path class="ol nf" d="M' + (x + w / 2) + ' ' + (y - h + 4) + ' L' + (x + 4) + ' ' + (y - wh) + ' M' + (x + w / 2) + ' ' + (y - h + 4) + ' L' + (x + w - 4) + ' ' + (y - wh) + '" opacity=".45"/>' +
-        R(x + w / 2 - 5, y - 14, 10, 14, 2, 'brown');
-    }
-    function foliage(n, x0, x1, y0, y1, seed) {
-      var s = '';
-      for (var i = 0; i < n; i++) { seed = (seed * 9301 + 49297) % 233280; var x = x0 + seed / 233280 * (x1 - x0); seed = (seed * 9301 + 49297) % 233280; var y = y0 + seed / 233280 * (y1 - y0); s += '<circle class="ol f-' + (i % 3 === 0 ? 'maple2' : 'maple') + '" cx="' + x.toFixed(0) + '" cy="' + y.toFixed(0) + '" r="' + (5 + i % 3) + '"/>'; }
-      return s;
-    }
-    function steam(x, y) { return '<path class="ol nf" d="M' + x + ' ' + y + ' q-5 -6 0 -12 q5 -6 0 -12 M' + (x + 12) + ' ' + (y + 2) + ' q-5 -6 0 -12 q5 -6 0 -12" opacity=".7"/>'; }
-    SC.gorge = function () {
-      return bg('sky') + sun(300, 28, 12) + cloud(40, 12, .8) +
-        P('M-4 20 L70 30 L98 72 L122 144 L-4 144Z', 'brown') + P('M364 10 L292 26 L262 74 L238 144 L364 144Z', 'brown') +
-        P('M120 144 Q150 104 176 84 Q190 74 204 84 Q228 104 240 144Z', 'water') +
-        foliage(22, 4, 92, 36, 100, 11) + foliage(22, 268, 356, 24, 104, 29) +
-        R(104, 66, 152, 5, 1, 'roof') + L('M120 66 V54 M180 66 V52 M240 66 V54') +
-        '<path class="ol nf" d="M150 128 q8 -5 16 0 t16 0 M190 118 q8 -5 16 0 t16 0"/>' + C(160, 136, 5, 'gray') + C(210, 132, 6, 'gray') + snow(8);
-    };
-    SC.orchard = function () {
-      var s = bg('sky') + sun(60, 30, 12) + cloud(250, 14, .9) + P('M-10 100 Q80 66 170 94 T370 90 V144 H-10Z', 'leaf');
-      [[60, 112, 1.1], [150, 118, 1.2], [250, 112, 1.1], [320, 120, .9]].forEach(function (t, i) {
-        s += G('translate(' + t[0] + ' ' + t[1] + ') scale(' + t[2] + ')', R(-3, -14, 6, 16, 1, 'brown') + P('M-24 -12 Q-30 -40 -6 -48 Q14 -58 28 -38 Q34 -14 12 -12Z', 'leaf2') + C(-10, -32, 3.4, 'roof') + C(8, -42, 3.4, 'roof') + C(14, -24, 3.4, 'roof') + C(-16, -20, 3.4, 'roof') + C(0, -26, 3.4, 'roof'));
-      });
-      s += R(196, 112, 36, 22, 4, 'brown') + C(206, 112, 5, 'roof') + C(218, 111, 5, 'roof') + C(226, 114, 4.5, 'roof');
-      s += R(8, 70, 70, 18, 3, 'cloud') + T(43, 83, 11, '果樹園');
-      return s + snow(8);
-    };
-    SC.temple = function () {
-      return bg('sky') + sun(310, 28, 11) + cloud(30, 12, .8) + mount(-20, 120, 200, 70, 'sky2', true) +
-        P('M120 144 L140 76 Q196 40 262 76 L290 144Z', 'gray') +
-        R(172, 54, 60, 24, 0, 'wall') + '<path class="ol nf" d="M184 54 V78 M202 54 V78 M220 54 V78"/>' + hanokRoof(162, 38, 80, 18, 'roof2') + R(190, 28, 24, 12, 0, 'wall') + hanokRoof(184, 16, 36, 12, 'roof2') +
-        L('M150 140 L190 128 L160 116 L200 104 L172 94 L204 84', ' stroke-width="3" opacity=".6"') +
-        maple(60, 128, 1.2) + maple(100, 132, 1) + maple(300, 130, 1.2) + maple(338, 134, .9, 'maple2') + pine(124, 126, .9) + pine(280, 128, .9) + snow(10);
-    };
-    SC.lake = function () {
-      return bg('sky') + sun(60, 26, 11) + cloud(250, 14, .9) + mount(120, 82, 220, 60, 'sky2', true) + mount(-20, 82, 190, 40, 'leaf2', false) +
-        '<rect class="ol f-water" x="-4" y="82" width="368" height="62"/>' + '<path class="f-sky2 nol" d="M170 84 L230 84 L220 120 L180 120Z" opacity=".5"/>' +
-        '<path class="ol nf" d="M30 108 q8 -5 16 0 t16 0 M250 114 q8 -5 16 0 t16 0 M140 128 q8 -5 16 0 t16 0"/>' +
-        P('M196 106 H236 L230 116 H202Z', 'brown') + L('M216 106 V92') + P('M216 92 L230 100 H216Z', 'cloud') +
-        maple(30, 86, 1.2) + maple(64, 84, 1, 'maple2') + maple(330, 86, 1.2) + maple(300, 84, .9, 'maple2') + L('M70 30 q4 -4 8 0 q4 -4 8 0 M96 40 q4 -4 8 0 q4 -4 8 0');
-    };
-    SC.village = function () {
-      return bg('sky') + sun(310, 26, 11) + cloud(30, 12, .8) + cloud(200, 20, .6) + P('M-10 80 Q80 52 170 76 T370 70 V144 H-10Z', 'leaf2') +
-        thatch(14, 112, 62, 70) + thatch(96, 114, 54, 62, 'wall2') + thatch(176, 112, 66, 74) + thatch(262, 114, 58, 64, 'wall3') +
-        maple(86, 114, 1, 'maple') + maple(258, 114, .9, 'maple2') + maple(344, 116, 1.1) +
-        '<rect class="ol f-gray" x="-4" y="114" width="368" height="30"/>' + '<path class="dash" d="M10 130 H350"/>' +
-        R(150, 96, 18, 8, 2, 'brown') + snow(14);
-    };
-    SC.castle = function () {
-      return bg('sky') + sun(60, 30, 12) + cloud(250, 12, .9) + cloud(120, 22, .6) +
-        '<rect class="ol f-water" x="-4" y="118" width="368" height="30"/>' +
-        P('M100 122 L118 86 H242 L260 122Z', 'gray') + '<path class="ol nf" d="M108 108 H252 M114 96 H246 M150 86 V122 M200 86 V122" opacity=".4"/>' +
-        R(130, 62, 100, 26, 0, 'cloud') + R(146, 70, 10, 10, 1, 'sky2') + R(176, 70, 10, 10, 1, 'sky2') + R(206, 70, 10, 10, 1, 'sky2') + hanokRoof(118, 52, 124, 16, 'roof') +
-        R(148, 38, 64, 16, 0, 'cloud') + R(166, 42, 8, 8, 1, 'sky2') + R(186, 42, 8, 8, 1, 'sky2') + hanokRoof(138, 28, 84, 14, 'roof') +
-        R(164, 18, 32, 12, 0, 'cloud') + hanokRoof(154, 8, 52, 12, 'roof') +
-        maple(50, 120, 1.4) + maple(86, 122, 1.1, 'maple2') + maple(310, 120, 1.4) + maple(276, 122, 1.1, 'maple2') + pine(24, 122, 1) + snow(10);
-    };
-    SC.shrine = function () {
-      return bg('sky') + sun(300, 28, 12) + cloud(30, 14, .8) + P('M-10 90 Q80 60 170 84 T370 80 V144 H-10Z', 'leaf2') +
-        '<rect class="ol f-gray" x="-4" y="112" width="368" height="32"/>' +
-        R(120, 50, 12, 66, 0, 'roof') + R(228, 50, 12, 66, 0, 'roof') + P('M102 44 Q180 34 258 44 L254 56 Q180 46 106 56Z', 'roof') + R(114, 66, 132, 8, 0, 'roof') + R(166, 56, 28, 12, 0, 'wall3') +
-        P('M150 144 L160 112 H200 L210 144Z', 'gray') + L('M156 128 H204 M153 136 H207') +
-        R(60, 96, 14, 18, 0, 'gray') + P('M54 96 H80 L67 84Z', 'gray') + R(286, 96, 14, 18, 0, 'gray') + P('M280 96 H306 L293 84Z', 'gray') +
-        maple(30, 114, 1.3) + maple(330, 114, 1.3) + maple(100, 116, .9, 'maple2') + maple(260, 116, .9, 'maple2') + snow(10);
-    };
-    SC.waterfall = function () {
-      return bg('sky') + cloud(30, 10, .7) + cloud(280, 12, .7) +
-        P('M70 144 L90 20 Q180 -4 270 20 L290 144Z', 'gray') + P('M164 22 H200 Q206 60 220 104 H146 Q158 60 164 22Z', 'cloud') +
-        '<path class="ol nf" d="M172 26 Q176 60 170 100 M186 26 Q190 60 188 100" opacity=".5"/>' +
-        '<rect class="ol f-water" x="-4" y="104" width="368" height="40"/>' + '<ellipse class="f-cloud nol" cx="182" cy="106" rx="34" ry="6" opacity=".8"/>' +
-        '<path class="ol nf" d="M40 124 q8 -5 16 0 t16 0 M270 126 q8 -5 16 0 t16 0"/>' + C(110, 112, 8, 'gray') + C(262, 114, 9, 'gray') +
-        maple(36, 108, 1.3) + maple(318, 108, 1.3) + maple(78, 100, 1, 'maple2') + pine(290, 100, 1) + snow(8);
-    };
-    SC.matsushima = function () {
-      var s = bg('sky') + sun(300, 30, 13) + cloud(30, 16, .9) + cloud(180, 8, .6) + '<rect class="ol f-water" x="-4" y="76" width="368" height="68"/>';
-      [[70, 100, 1], [180, 92, 1.3], [270, 104, .9]].forEach(function (t) {
-        s += G('translate(' + t[0] + ' ' + t[1] + ') scale(' + t[2] + ')', P('M-34 6 Q-30 -12 -8 -14 Q14 -16 34 6Z', 'gray') + P('M-26 -10 Q-20 -22 -6 -20 Q4 -30 16 -20 Q26 -22 28 -8Z', 'leaf2') + R(-1.5, -18, 3, 8, 1, 'brown'));
-      });
-      s += P('M120 124 H180 L172 136 H128Z', 'roof') + R(138, 112, 26, 12, 3, 'wall') + L('M151 112 V98') + P('M151 98 L166 104 H151Z', 'cloud');
-      s += '<path class="ol nf" d="M20 120 q8 -5 16 0 t16 0 M250 128 q8 -5 16 0 t16 0 M60 136 q8 -5 16 0 t16 0"/>' + L('M40 40 q4 -4 8 0 q4 -4 8 0 M240 54 q4 -4 8 0 q4 -4 8 0');
-      return s;
-    };
-    SC.onsen = function () {
-      return bg('sky') + sun(300, 28, 12) + cloud(40, 16, .7) + mount(-20, 96, 200, 50, 'leaf2', false) +
-        R(222, 54, 96, 44, 0, 'wall') + R(250, 70, 18, 28, 0, 'asun') + hanokRoof(210, 38, 120, 20, 'roof2') + R(232, 62, 12, 12, 1, 'asun') + R(284, 62, 12, 12, 1, 'asun') +
-        '<rect class="ol f-brown" x="-4" y="98" width="368" height="46"/>' +
-        '<ellipse class="ol f-water" cx="130" cy="116" rx="86" ry="20"/>' + [[60, 106], [84, 100], [112, 98], [144, 98], [174, 102], [196, 110], [190, 124], [70, 124], [100, 130], [150, 132]].map(function (p) { return C(p[0], p[1], 8, 'gray'); }).join('') +
-        steam(110, 100) + steam(150, 98) + '<path class="ol f-maple" d="M130 114 l4 -4 l4 4 l-4 4Z"/>' +
-        maple(30, 98, 1.3) + maple(344, 100, 1.1, 'maple2') + R(8, 112, 8, 26, 0, 'brown');
-    };
-    SC.town = function () {
+    SC.hongdae = function () {
       return bg('sky') + cloud(24, 14, .8) + cloud(250, 10, .7) +
         bld(10, 50, 66, 68, 'wall2', 'roof') + bld(84, 36, 56, 82, 'wall4', 'roof2') + bld(148, 62, 52, 56, 'wall3', 'roof') + bld(208, 42, 60, 76, 'wall', 'roof2') + bld(276, 58, 76, 60, 'wall2', 'roof') +
-        R(90, 46, 44, 12, 3, 'cloud') + T(112, 55, 9, '牛タン') + R(16, 56, 54, 11, 3, 'cloud') + T(43, 64.5, 8, '仙台駅') +
-        '<rect class="ol f-gray" x="-4" y="116" width="368" height="30"/>' + '<path class="dash" d="M10 130 H350"/>' +
-        G('translate(250 118)', R(-3, -14, 6, 16, 1, 'brown') + P('M-16 -12 Q-20 -34 -4 -40 Q12 -46 18 -30 Q22 -14 10 -12Z', 'wall3')) + maple(336, 120, .9) + snow(14);
+        R(92, 46, 40, 12, 3, 'cloud') + T(112, 55, 8.5, '弘大') + R(16, 56, 54, 11, 3, 'cloud') + T(43, 64.5, 7.5, 'CAFE') +
+        lights(30, 13) + '<rect class="ol f-gray" x="-4" y="116" width="368" height="30"/>' + '<path class="dash" d="M10 130 H350"/>' +
+        tree(334, 120, .8, 'g') + snow(18);
     };
-    SC.food = function () {
-      var s = bg('wall2') + lights(16, 12) + '<rect class="ol f-brown" x="-4" y="92" width="368" height="52"/>';
-      s += '<ellipse class="ol f-cloud" cx="96" cy="108" rx="62" ry="17"/>';
-      for (var i = 0; i < 5; i++) s += G('translate(' + (60 + i * 17) + ' ' + (102 - (i % 2) * 3) + ') rotate(' + (i * 8 - 16) + ')', R(-11, -6, 22, 12, 6, 'brown') + '<path class="ol nf" d="M-6 -2 H6 M-6 2 H6" opacity=".5"/>');
-      s += P('M180 100 H236 Q236 124 208 124 Q180 124 180 100Z', 'cloud') + P('M182 100 Q208 78 234 100Z', 'cloud') + steam(200, 76);
-      s += R(262, 76, 30, 28, 8, 'wall4') + L('M292 84 q8 0 8 8 q0 8 -8 8') + steam(272, 70);
-      s += L('M318 112 L350 76 M326 114 L356 84');
+    SC.tower = function () {
+      return bg('sky') + sun(60, 30, 13) + cloud(240, 18, .9) + cloud(120, 30, .6) +
+        P('M-20 140 Q70 76 180 80 T380 100 V140Z', 'leaf') +
+        L('M20 30 L160 70', ' stroke-dasharray="2 4"') + R(92, 42, 18, 14, 3, 'roof') + L('M101 42 V36') +
+        P('M176 24 L184 24 L188 72 L172 72Z', 'cloud') + R(164, 30, 32, 12, 6, 'sky2') + R(168, 27, 24, 5, 2, 'roof') + L('M180 24 V4') + R(168, 66, 24, 18, 4, 'wall') +
+        tree(70, 120, .9) + tree(120, 124, .7, 'g') + tree(250, 116, 1) + tree(300, 122, .8) + snow(20);
+    };
+    SC.hanok = function () {
+      return bg('sky') + sun(310, 28, 12) + cloud(30, 14, .8) +
+        P('M0 100 L60 44 L100 72 L150 30 L210 80 L260 46 L320 82 L360 62 V118 H0Z', 'sky2') +
+        '<path class="f-snow nol" d="M52 52 L60 44 L68 52 L60 50Z M142 38 L150 30 L158 38 L150 36Z"/>' +
+        R(96, 84, 168, 34, 0, 'gray') + P('M120 118 V100 Q138 82 156 100 V118Z', 'brown') + P('M160 118 V96 Q180 70 200 96 V118Z', 'brown') + P('M204 118 V100 Q222 82 240 100 V118Z', 'brown') +
+        R(112, 58, 136, 28, 0, 'roof') + '<path class="ol nf" d="M146 58 V86 M180 58 V86 M214 58 V86"/>' + hanokRoof(100, 42, 160, 22, 'roof2') +
+        R(144, 30, 72, 14, 0, 'roof') + hanokRoof(132, 12, 96, 20, 'roof2') +
+        '<rect class="ol f-wall" x="-4" y="116" width="368" height="30"/>' + tree(50, 120, 1.1, 'g') + tree(312, 120, 1.1, 'g') + tree(26, 126, .8, 'g') + snow(16);
+    };
+    SC.river = function () {
+      var s = bg('sky') + sun(70, 52, 14) + cloud(220, 14, .9) + cloud(110, 22, .6);
+      var hs = [30, 44, 26, 52, 36, 28, 46, 34, 22]; for (var i = 0; i < hs.length; i++) s += '<rect class="ol f-sky2" x="' + (200 + i * 18) + '" y="' + (92 - hs[i]) + '" width="16" height="' + hs[i] + '"/>';
+      s += '<rect class="ol f-water" x="-4" y="92" width="368" height="52"/>';
+      s += R(-4, 66, 368, 9, 2, 'gray');
+      for (var j = 0; j < 7; j++) s += R(14 + j * 54, 75, 9, 28, 1, 'gray');
+      s += '<path class="ol nf" d="M10 112 q8 -5 16 0 t16 0 M120 124 q8 -5 16 0 t16 0 M270 118 q8 -5 16 0 t16 0 M60 130 q8 -5 16 0 t16 0"/>';
+      s += P('M232 100 H290 L282 114 H240Z', 'roof') + R(250, 88, 26, 12, 3, 'wall') + L('M263 88 V74') + P('M263 74 L276 80 L263 84Z', 'asun');
+      return s + snow(14);
+    };
+    SC.subway = function () {
+      var s = bg('wall4') + R(20, 12, 156, 24, 8, 'cloud') + C(38, 24, 8, 'leaf') + T(38, 28, 10, '2', ' style="fill:var(--cloud)"') + T(110, 27, 9, '弘大入口 Hongik Univ.');
+      s += '<path class="ol nf" d="M196 24 H340" stroke-dasharray="2 5"/>';
+      s += R(22, 54, 316, 54, 14, 'cloud') + R(22, 84, 316, 9, 0, 'leaf');
+      for (var i = 0; i < 5; i++) { s += R(38 + i * 60, 62, 42, 22, 6, 'sky2'); s += C(59 + i * 60, 74, 5, 'wall2'); }
+      s += C(326, 98, 4, 'asun');
+      for (var k = 0; k < 6; k++) s += C(50 + k * 52, 110, 5, 'gray');
+      s += '<rect class="ol f-gray" x="-4" y="112" width="368" height="32"/><rect class="f-asun nol" x="0" y="118" width="360" height="4"/>';
       return s;
     };
+    SC.food = function () {
+      var s = bg('wall2') + lights(16, 12);
+      s += '<rect class="ol f-brown" x="-4" y="92" width="368" height="52"/>';
+      s += '<ellipse class="ol f-cloud" cx="100" cy="106" rx="62" ry="17"/><ellipse class="ol f-roof" cx="100" cy="102" rx="48" ry="11"/>';
+      for (var i = 0; i < 6; i++) s += G('translate(' + (66 + i * 13) + ' ' + (92 + (i % 2) * 6) + ') rotate(' + (i * 28 - 40) + ')', R(-12, -4, 24, 8, 4, 'wall'));
+      s += L('M60 80 L150 70 M64 86 L156 78', '');
+      s += '<ellipse class="ol f-cloud" cx="226" cy="108" rx="34" ry="12"/><ellipse class="ol f-wall3" cx="226" cy="100" rx="28" ry="12"/><ellipse class="ol f-wall3" cx="226" cy="92" rx="24" ry="10"/>';
+      s += '<path class="ol nf" d="M214 92 q12 8 24 0" stroke="var(--roof)"/>';
+      s += R(286, 66, 32, 36, 8, 'cloud') + R(292, 74, 20, 8, 3, 'roof') + L('M296 58 q-6 -8 0 -14 M306 58 q-6 -8 0 -14');
+      s += L('M330 104 L352 78 M338 106 L356 84');
+      return s;
+    };
+    SC.shop = function () {
+      var s = bg('sky') + cloud(40, 10, .8) + cloud(260, 14, .7);
+      s += R(8, 30, 100, 88, 4, 'wall4') + R(8, 24, 100, 14, 3, 'roof') + R(20, 44, 76, 22, 4, 'cloud') + T(58, 59, 11, 'SALE');
+      s += R(116, 44, 112, 74, 4, 'wall3') + R(116, 38, 112, 14, 3, 'roof2') + R(130, 58, 84, 24, 4, 'cloud') + T(172, 76, 12, '明洞');
+      s += R(236, 30, 116, 88, 4, 'wall2') + R(236, 24, 116, 14, 3, 'roof') + R(250, 46, 88, 22, 4, 'cloud') + T(294, 61, 11, 'COSME');
+      s += '<rect class="ol f-gray" x="-4" y="116" width="368" height="30"/>';
+      s += P('M34 100 h34 l-3 28 h-28z', 'roof') + L('M42 100 q9 -14 18 0') + P('M76 106 h30 l-3 24 h-24z', 'roof2') + L('M83 106 q8 -12 16 0') + P('M290 102 h32 l-3 26 h-26z', 'asun') + L('M298 102 q8 -13 16 0');
+      return s + snow(10);
+    };
     SC.hero = function () {
-      return bg('sky') + sun(46, 76, 10) + cloud(250, 12, .8) + cloud(196, 68, .6) +
-        mount(150, 112, 220, 70, 'sky2', true) + P('M150 120 Q250 80 364 96 V120Z', 'leaf') + '<path class="f-water nol" d="M214 112 Q290 100 350 112 V118 H214Z"/>' +
-        maple(330, 110, 1) + maple(288, 114, .8, 'maple2') + maple(236, 116, .7) + pine(196, 118, .7) +
-        thatch(24, 118, 64, 54) + thatch(100, 118, 50, 44, 'wall2') + maple(160, 118, 1.1) + maple(14, 118, .8, 'maple2') +
+      return bg('sky') + sun(40, 74, 10) + cloud(250, 12, .8) + cloud(190, 70, .6) +
+        P('M170 120 Q250 66 360 86 V120Z', 'leaf') +
+        P('M296 22 L302 22 L305 80 L293 80Z', 'cloud') + R(286, 26, 26, 10, 5, 'sky2') + R(289, 24, 20, 4, 2, 'roof') + L('M299 22 V6') + R(290, 76, 18, 14, 3, 'wall') +
+        tree(332, 112, .7) + tree(228, 118, .6, 'g') +
+        R(24, 86, 84, 32, 0, 'wall') + R(58, 98, 14, 20, 2, 'brown') + hanokRoof(14, 66, 104, 22, 'roof2') + R(34, 92, 12, 12, 2, 'sky2') + R(84, 92, 12, 12, 2, 'sky2') +
+        tree(140, 120, .9, 'g') +
         '<rect class="ol f-snow" x="-4" y="116" width="368" height="10"/>' +
-        R(8, 22, 132, 20, 3, 'cloud') + T(74, 36, 10, 'TOHOKU  11.05 – 11.10') + L('M140 32 L156 36') +
-        plane(156, 24, .55, 4) + snow(18);
+        R(8, 22, 124, 20, 3, 'cloud') + T(70, 36, 10.5, 'SEOUL  12.02 – 12.06') + L('M132 32 L148 36') +
+        plane(148, 24, .55, 4) + snow(22);
     };
     /* 小圖示（28×28） */
     var IC = {};
@@ -986,16 +896,11 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
     IC.camera = R(3, 9, 22, 15, 4, 'sky2') + C(14, 17, 5, 'cloud') + C(14, 17, 2, 'roof') + R(9, 5, 7, 4, 1, 'roof');
     IC.bag = R(6, 10, 16, 16, 2, 'roof') + L('M10 10 Q10 3 14 3 Q18 3 18 10');
     IC.pin = P('M14 26 Q5 16 5 11 A9 9 0 0 1 23 11 Q23 16 14 26Z', 'roof') + C(14, 11, 3, 'cloud');
-    IC.maple = P('M14 3 L17 9 L23 8 L20 13 L25 16 L18 17 L18 22 L14 20 L10 22 L10 17 L3 16 L8 13 L5 8 L11 9Z', 'roof') + L('M14 17 V26');
-    IC.onsen = P('M3 15 H25 V18 Q25 25 14 25 Q3 25 3 18Z', 'water') + L('M9 12 q-3 -3 0 -6 M15 12 q-3 -3 0 -6 M21 12 q-3 -3 0 -6');
-    IC.castle = R(8, 15, 12, 9, 0, 'cloud') + P('M4 15 L14 7 L24 15Z', 'roof') + R(10, 4, 8, 5, 0, 'cloud') + P('M8 5 L14 1 L20 5Z', 'roof') + R(12, 18, 4, 6, 1, 'brown');
-    IC.temple = R(6, 14, 16, 10, 0, 'wall') + P('M2 14 Q14 10 26 14 L22 8 H6Z', 'roof2') + R(11, 18, 6, 6, 1, 'brown') + L('M14 8 V3');
-    IC.car = P('M3 18 Q3 12 7 11 L10 6 H18 L21 11 Q25 12 25 18 V21 H3Z', 'roof') + R(9, 8, 4, 4, 1, 'sky2') + R(15, 8, 4, 4, 1, 'sky2') + C(8, 22, 3, 'gray') + C(20, 22, 3, 'gray');
     /* 底部導覽圖示（32×32） */
     var NAVI = {};
     NAVI.plan = R(4, 7, 24, 21, 5, 'cloud') + P('M4 12 Q4 7 9 7 H23 Q28 7 28 12V14H4Z', 'roof') + L('M10 4 V9 M22 4 V9') + C(11, 20, 2, 'roof2') + C(17, 20, 2, 'asun') + C(23, 20, 2, 'leaf2');
     NAVI.map = P('M3 8 L12 5 L20 8 L29 5 V24 L20 27 L12 24 L3 27Z', 'leaf') + L('M12 5 V24 M20 8 V27') + P('M23 19 Q18 13 18 11 A5 5 0 0 1 28 11 Q28 13 23 19Z', 'roof') + C(23, 11, 1.8, 'cloud');
-    NAVI.budget = P('M7 12 Q4 6 9 5 Q12 5 16 8 Q20 5 23 5 Q28 6 25 12 Q30 17 27 23 Q24 28 16 28 Q8 28 5 23 Q2 17 7 12Z', 'asun') + T(16, 23, 13, '¥', ' style="font-weight:700"');
+    NAVI.budget = P('M7 12 Q4 6 9 5 Q12 5 16 8 Q20 5 23 5 Q28 6 25 12 Q30 17 27 23 Q24 28 16 28 Q8 28 5 23 Q2 17 7 12Z', 'asun') + T(16, 23, 13, '₩', ' style="font-weight:700"');
     NAVI.split = P('M6 3 H26 V28 L23 26 L20 28 L16 26 L12 28 L9 26 L6 28Z', 'cloud') + L('M10 10 H22 M10 15 H22 M10 20 H17') + '<path class="ol f-roof" d="M22 21 q2 -3 3 0 q1 3 -3 5 q-4 -2 -3 -5 q1 -3 3 0Z"/>';
     NAVI.fx = C(12, 12, 8, 'asun') + C(21, 20, 8, 'wall4') + L('M6 26 Q4 20 8 18 M8 18 L5 18 M8 18 L8 21') + L('M26 6 Q28 12 24 14 M24 14 L27 14 M24 14 L24 11');
     NAVI.tr = P('M3 6 H20 Q23 6 23 9 V16 Q23 19 20 19 H12 L7 24 V19 H6 Q3 19 3 16Z', 'sky2') + P('M13 13 H27 Q30 13 30 16 V22 Q30 25 27 25 H26 V29 L21 25 H16 Q13 25 13 22Z', 'wall2') + L('M8 11 H18 M8 15 H14');
@@ -1004,32 +909,33 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
     function ico(name, vb) { return '<svg class="pic" viewBox="0 0 ' + (vb || 28) + ' ' + (vb || 28) + '" aria-hidden="true">' + (IC[name] || IC.pin) + '</svg>'; }
     function nav(name) { return '<svg class="pic" viewBox="0 0 32 32" aria-hidden="true">' + NAVI[name] + '</svg>'; }
     function pick(day, total, items) {
-      var rules = [['gorge', /鳴子|峽|へつり/], ['orchard', /果樹|蘋果|王將/], ['temple', /山寺/], ['lake', /五色沼|湖/], ['village', /大內宿|大内宿/], ['waterfall', /瀧|滝/], ['matsushima', /松島/], ['shrine', /神社/], ['castle', /城|瑞鳳殿/], ['airport', /機場|空港|航班|搭乘|起飛|IT\d/], ['town', /逛|商店|市區|牛タン|購物/], ['food', /吃|餐|美食/], ['onsen', /溫泉|湯|入住/]];
-      for (var k = 0; k < items.length; k++) { var t = items[k].title + ' ' + (items[k].note || ''); for (var i = 0; i < rules.length; i++) if (rules[i][1].test(t)) return rules[i][0]; }
-      return ['gorge', 'village', 'lake', 'waterfall', 'castle', 'onsen'][(day - 1) % 6];
+      if (day === 1) return 'airport';
+      if (day === total && total > 1) return 'plane';
+      var txt = items.map(function (x) { return x.title + ' ' + (x.note || ''); }).join(' ');
+      var rules = [['tower', /塔|南山|N Seoul/i], ['hanok', /宮|寺|韓屋|北村|門/], ['river', /漢江|橋|公園|河/], ['subway', /地鐵|捷運|電車/], ['food', /吃|餐|美食|市場|烤肉|咖啡|甜點|雞/], ['shop', /逛|購物|明洞|百貨|免稅|藥妝/], ['hongdae', /弘大|入住|Airbnb/i]];
+      for (var i = 0; i < rules.length; i++) if (rules[i][1].test(txt)) return rules[i][0];
+      return ['hongdae', 'tower', 'hanok', 'river', 'food', 'shop', 'subway'][(day - 2) % 7];
     }
-    var LABEL = { airport: '仙台機場與飛機', plane: '飛機飛過雲端', gorge: '紅葉峽谷', orchard: '蘋果果樹園', temple: '山寺與楓葉', lake: '裏磐梯湖泊與磐梯山', village: '茅葺屋老街', castle: '白牆城郭與楓葉', shrine: '紅色鳥居與石燈籠', waterfall: '瀑布與楓葉', matsushima: '松島海灣', onsen: '露天溫泉', town: '仙台街景', food: '仙台牛舌定食' };
+    var LABEL = { airport: '仁川機場與飛機', plane: '飛機飛過雲端', hongdae: '弘大街景', tower: '南山首爾塔與纜車', hanok: '韓屋城門與銀杏', river: '漢江大橋', subway: '地鐵 2 號線', food: '辣炒年糕與糖餅', shop: '明洞商店街' };
     function scene(name) { return svg(SC[name](), '0 0 360 140', LABEL[name] || '插圖'); }
-    function hero() { return svg(SC.hero(), '0 0 360 120', '東北風景：楓葉、茅葺屋與磐梯山'); }
+    function hero() { return svg(SC.hero(), '0 0 360 120', '首爾插圖：南山塔、韓屋與飛機'); }
     function kind(x, place) {
       var t = (x.title || '') + ' ' + (x.note || '');
-      if (/搭乘|航班|機場|起飛|登機|IT\d/.test(t)) return 'plane';
-      if (/租車|自駕|取車|還車/.test(t)) return 'car';
-      if (/溫泉|湯/.test(t)) return 'onsen';
-      if (/入住|退房|住宿|飯店/.test(t)) return 'house';
-      if (/城|瑞鳳殿/.test(t)) return 'castle';
-      if (/寺|神社/.test(t)) return 'temple';
-      if (/峽|楓|沼|瀧|滝|大內宿|松島|果樹/.test(t)) return 'maple';
-      if (/吃|餐|牛タン|拉麵|美食/.test(t) || (place && place.type === 'food')) return 'food';
-      if (/逛|購物|買/.test(t)) return 'bag';
-      if (place && place.type === 'spot') return 'camera';
+      if (/搭乘|航班|機場|起飛|登機|CI\d|TR\d/.test(t)) return 'plane';
+      if (/地鐵|捷運|鐵路|AREX/i.test(t)) return 'train';
+      if (/巴士|公車|計程車|Uber/i.test(t)) return 'bus';
+      if (/入住|退房|Airbnb|住宿|飯店/i.test(t)) return 'house';
+      if (/咖啡|甜點|茶/.test(t)) return 'cafe';
+      if (/吃|餐|美食|市場|烤肉|雞|麵|飯/.test(t) || (place && place.type === 'food')) return 'food';
+      if (/逛|購物|買|明洞|百貨|免稅/.test(t)) return 'bag';
+      if (/宮|塔|寺|景|拍|公園|村|橋/.test(t) || (place && place.type === 'spot')) return 'camera';
       return 'pin';
     }
     return { scene: scene, hero: hero, ico: ico, nav: nav, pick: pick, kind: kind };
   })();
 
   /* ---------- 每日地圖 ---------- */
-  var TRAVEL_MODE = 'driving';
+  var TRAVEL_MODE = 'transit';
   function stopQuery(p) { return (hasXY(p) && !p.approx) ? p.lat + ',' + p.lng : (p.q || p.name); }
   function renderDayMap(items) {
     var card = $('dayMapCard'), seen = {}, pl = [];
@@ -1115,7 +1021,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
   function cityName(p) { return p.city || '未分類'; }
   function cityIdx(city) {
     if (city === '未分類') return 7;
-    S.cityColor = S.cityColor || { '仙台': 0, '鳴子': 3, '山形': 2, '裏磐梯': 1, '會津': 4, '猪苗代': 5, '松島': 6 };
+    S.cityColor = S.cityColor || { '仁川': 2, '弘大': 0, '聖水': 1, '明洞': 3, '江南': 4, '漢南': 5, '益善洞': 6 };
     if (S.cityColor[city] === undefined) { S.cityColor[city] = Object.keys(S.cityColor).length % 7; save(); }
     return S.cityColor[city];
   }
@@ -1412,14 +1318,14 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
   }
   function renderSplit() {
     renderMembers(); renderExpenses(); renderSettle(); updatePreview(); fillExpSelects(); fillViewCur(); renderBudget();
-    var cur = $('eCur').value || 'JPY';
+    var cur = $('eCur').value || 'KRW';
     curOptions($('eCur'), cur);
   }
 
   /* fx */
   function renderFx() {
     var keys = Object.keys(S.rates);
-    var f = $('cvFrom').value || 'JPY', t = $('cvTo').value || 'TWD';
+    var f = $('cvFrom').value || 'KRW', t = $('cvTo').value || 'TWD';
     curOptions($('cvFrom'), f); curOptions($('cvTo'), t);
     $('rateTable').innerHTML = keys.filter(function (c) { return c !== 'TWD'; }).map(function (c) {
       return '<span class="cur">' + c + '<span class="sub" style="font-family:var(--font-body)"> ' + (NAMES[c] || '') + '</span></span>' +
@@ -1642,7 +1548,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
     var sel = $('trLang');
     if (!sel.options.length) {
       sel.innerHTML = Object.keys(LANGS).map(function (k) { return '<option value="' + k + '">' + LANGS[k] + '</option>'; }).join('');
-      sel.value = S.lang || 'ja';
+      sel.value = S.lang || 'ko';
     }
     var l = sel.value, html = '', any = false;
     BOOK.forEach(function (b, i) {
@@ -1976,7 +1882,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
   });
 
   /* budget overview */
-  var CATS = ['機票', '住宿', '租車', '餐飲', '交通', '門票', '購物', '其他'];
+  var CATS = ['機票', '住宿', '餐飲', '咖啡甜點', '交通', '購物', '美妝', '其他'];
   var CAT_ICON = {};
   var PACK_ICON = {};
   var budDay = 'all';
@@ -2028,7 +1934,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
     });
     var seen = {};
     for (var d = 1; d <= S.dayCount; d++) if (S.stay && S.stay[d] && !seen[S.stay[d]]) { seen[S.stay[d]] = 1; q.push({ cat: '住宿', title: '住宿 ' + S.stay[d], day: 0 }); }
-    q.push({ cat: '租車', title: '租車費用', day: 0 });
+    q.push({ cat: '交通', title: '網卡／eSIM', day: 0 });
     return q;
   }
   function prefill(q) {
@@ -2045,7 +1951,7 @@ code { font-family: var(--font-num); font-size: 12px; background: var(--bg); pad
     var budTotal = CATS.reduce(function (a, c) { return a + (+bud[c] || 0); }, 0);
 
     var h = '<div class="sumbig num">NT$ ' + fmt(total, 'TWD') + '</div><div class="sub num">' +
-      (S.rates.JPY ? '約 ¥' + fmt(total / S.rates.JPY, 'JPY') + '（依目前匯率）· ' : '') + '共 ' + ex.length + ' 筆' +
+      (S.rates.KRW ? '約 ₩' + fmt(total / S.rates.KRW, 'KRW') + '（依目前匯率）· ' : '') + '共 ' + ex.length + ' 筆' +
       (S.members.length ? ' · 人均 NT$ ' + fmt(total / S.members.length, 'TWD') : '') + '</div>';
     if (budTotal > 0) {
       var pct = Math.min(100, total / budTotal * 100), over = total > budTotal;
